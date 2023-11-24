@@ -363,9 +363,11 @@ packages:
   logger:
     dependency: "direct main"
     description:
-      path: "../logger"
-      relative: true
-    source: path
+      path: logger
+      ref: HEAD
+      resolved-ref: "128e52f4406918cc6cbbc4e3a2d78bf6cbba3296"
+      url: "git@github.com:slickbit-studios/slickbit_packages.git"
+    source: git
     version: "0.0.1"
   logging:
     dependency: transitive

@@ -11,7 +11,9 @@ environment:
 
 dependencies:
   logger:
-    path: ../logger
+    git:
+      url: git@github.com:slickbit-studios/slickbit_packages.git
+      path: logger
 
   flutter:
     sdk: flutter
